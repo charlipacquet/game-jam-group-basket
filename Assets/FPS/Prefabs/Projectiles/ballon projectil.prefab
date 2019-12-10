@@ -64,7 +64,7 @@ MonoBehaviour:
   impactVFX: {fileID: 0}
   impactVFXLifetime: 5
   impactVFXSpawnOffset: 5
-  impactSFXClip: {fileID: 0}
+  impactSFXClip: {fileID: 8300000, guid: 1fef9c53153521c42a044fb857992a14, type: 3}
   hittableLayers:
     serializedVersion: 2
     m_Bits: 4294967295

@@ -57,13 +57,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de99b30e1e73fd14e98cc5371da25d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0.1
+  radius: 0.3
   root: {fileID: 4890485602377080326}
   tip: {fileID: 3336993351061911626}
   maxLifeTime: 5
   impactVFX: {fileID: 0}
   impactVFXLifetime: 5
-  impactVFXSpawnOffset: 0.1
+  impactVFXSpawnOffset: 5
   impactSFXClip: {fileID: 8300000, guid: 929fb0e197668d1488f15bf4e0a28452, type: 3}
   hittableLayers:
     serializedVersion: 2

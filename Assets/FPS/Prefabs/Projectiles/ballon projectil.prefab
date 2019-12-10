@@ -64,12 +64,12 @@ MonoBehaviour:
   impactVFX: {fileID: 0}
   impactVFXLifetime: 5
   impactVFXSpawnOffset: 5
-  impactSFXClip: {fileID: 8300000, guid: 929fb0e197668d1488f15bf4e0a28452, type: 3}
+  impactSFXClip: {fileID: 0}
   hittableLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  speed: 20
-  gravityDownAcceleration: 0
+  speed: 25
+  gravityDownAcceleration: 20
   trajectoryCorrectionDistance: -1
   inheritWeaponVelocity: 0
   damage: 40
@@ -86,7 +86,6 @@ GameObject:
   - component: {fileID: 4890485602377080326}
   - component: {fileID: 4593034951888207870}
   - component: {fileID: 2063879299614723061}
-  - component: {fileID: 1322111088661813437}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -155,19 +154,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &1322111088661813437
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564947092541576488}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3393947696953918394
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +179,7 @@ Transform:
   m_GameObject: {fileID: 3393947696953918394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 101}
   m_Children: []
   m_Father: {fileID: 4890485602377080326}
   m_RootOrder: 0

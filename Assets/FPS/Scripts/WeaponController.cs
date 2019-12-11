@@ -282,6 +282,7 @@ public class WeaponController : MonoBehaviour
             Vector3 shotDirection = GetShotDirectionWithinSpread(weaponMuzzle);
             ProjectileBase newProjectile = Instantiate(projectilePrefab, weaponMuzzle.position, Quaternion.LookRotation(shotDirection));
             newProjectile.Shoot(this);
+            Destroy(gameObject);
         }
 
         // muzzle flash

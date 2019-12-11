@@ -59,7 +59,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 0.3
   root: {fileID: 4890485602377080326}
-  tip: {fileID: 0}
+  tip: {fileID: 4890485602377080326}
   maxLifeTime: 5
   impactVFX: {fileID: 0}
   impactVFXLifetime: 5
@@ -67,7 +67,7 @@ MonoBehaviour:
   impactSFXClip: {fileID: 8300000, guid: 1fef9c53153521c42a044fb857992a14, type: 3}
   hittableLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1335
   speed: 25
   gravityDownAcceleration: 20
   trajectoryCorrectionDistance: -1
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 2063879299614723061}
   - component: {fileID: 8333803372268199775}
   - component: {fileID: 4960206981211474067}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}

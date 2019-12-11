@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -5217079806551299977}
   m_Layer: 0
   m_Name: ballon projectil
-  m_TagString: Untagged
+  m_TagString: ballon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 4960206981211474067}
   m_Layer: 11
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: ballon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

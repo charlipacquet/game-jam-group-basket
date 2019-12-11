@@ -146,7 +146,7 @@ public class ProjectileStandard : MonoBehaviour
 
         // Hit detection
         {
-            RaycastHit closestHit = new RaycastHit();
+           /* RaycastHit closestHit = new RaycastHit();
             closestHit.distance = Mathf.Infinity;
             bool foundHit = false;
 
@@ -172,7 +172,7 @@ public class ProjectileStandard : MonoBehaviour
                 }
 
                 OnHit(closestHit.point, closestHit.normal, closestHit.collider);
-            }
+            }*/
         }
 
         m_LastRootPosition = root.position;

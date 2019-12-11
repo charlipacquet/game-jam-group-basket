@@ -39,7 +39,7 @@ public class WeaponPickup : MonoBehaviour
 
                 m_Pickup.PlayPickupFeedback();
 
-                Destroy(gameObject);
+                
             }
         }
     }

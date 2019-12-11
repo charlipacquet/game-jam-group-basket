@@ -1142,7 +1142,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6487fdefd669d4dbc91709a177cd4b93, type: 2}
+  - {fileID: 2100000, guid: 2c89ca6f5e853e8488c8249d6dc4797d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1200,6 +1200,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6867164318176036219}
     m_Modifications:
+    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_GunCylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6694346691460421829, guid: fa498bfcbbc9707458a2c75334b150c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1253,16 +1263,6 @@ PrefabInstance:
     - target: {fileID: 6694346691460421829, guid: fa498bfcbbc9707458a2c75334b150c8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
-        type: 3}
-      propertyPath: m_Name
-      value: VFX_GunCylinder
-      objectReference: {fileID: 0}
-    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1280,6 +1280,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6867164318176036213}
     m_Modifications:
+    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_GunCylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6694346691460421829, guid: fa498bfcbbc9707458a2c75334b150c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1333,16 +1343,6 @@ PrefabInstance:
     - target: {fileID: 6694346691460421829, guid: fa498bfcbbc9707458a2c75334b150c8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
-        type: 3}
-      propertyPath: m_Name
-      value: VFX_GunCylinder
-      objectReference: {fileID: 0}
-    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1360,6 +1360,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6867164318176036215}
     m_Modifications:
+    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_GunCylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6694346691460421829, guid: fa498bfcbbc9707458a2c75334b150c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1415,16 +1425,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
-        type: 3}
-      propertyPath: m_Name
-      value: VFX_GunCylinder
-      objectReference: {fileID: 0}
-    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa498bfcbbc9707458a2c75334b150c8, type: 3}
 --- !u!4 &1669691597877121020 stripped
@@ -1440,6 +1440,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6867164318176036221}
     m_Modifications:
+    - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_OverheatPrimary
+      objectReference: {fileID: 0}
+    - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1495,16 +1505,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
-        type: 3}
-      propertyPath: m_Name
-      value: VFX_OverheatPrimary
-      objectReference: {fileID: 0}
-    - target: {fileID: 5449920494797286051, guid: 21c8bd050f24da54285f8a3987ee6253,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21c8bd050f24da54285f8a3987ee6253, type: 3}
 --- !u!4 &2772967909889388702 stripped
@@ -1526,6 +1526,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6867164318176036209}
     m_Modifications:
+    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_GunCylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6694346691460421829, guid: fa498bfcbbc9707458a2c75334b150c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1579,16 +1589,6 @@ PrefabInstance:
     - target: {fileID: 6694346691460421829, guid: fa498bfcbbc9707458a2c75334b150c8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
-        type: 3}
-      propertyPath: m_Name
-      value: VFX_GunCylinder
-      objectReference: {fileID: 0}
-    - target: {fileID: 5781806936358044080, guid: fa498bfcbbc9707458a2c75334b150c8,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

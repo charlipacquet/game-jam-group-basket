@@ -68,8 +68,8 @@ MonoBehaviour:
   hittableLayers:
     serializedVersion: 2
     m_Bits: 1335
-  speed: 25
-  gravityDownAcceleration: 20
+  speed: 35
+  gravityDownAcceleration: 17
   trajectoryCorrectionDistance: -1
   inheritWeaponVelocity: 0
   damage: 40
@@ -134,7 +134,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6487fdefd669d4dbc91709a177cd4b93, type: 2}
+  - {fileID: 2100000, guid: 1ad5366ad5ceb9448910c0adac72acec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

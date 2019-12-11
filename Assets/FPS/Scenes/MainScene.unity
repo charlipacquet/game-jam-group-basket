@@ -2039,7 +2039,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221544576}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 623d21f8d2a2c0f4c86cb056018a4c34, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3461,6 +3461,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4877708893285474571, guid: 4246aae2c52f7f34e83b103bdc2081b9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4246aae2c52f7f34e83b103bdc2081b9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3531,7 +3536,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.075046614
       objectReference: {fileID: 0}
-    - target: {fileID: 8761417596159145557, guid: 4246aae2c52f7f34e83b103bdc2081b9,
+    - target: {fileID: 1892522544380552358, guid: 4246aae2c52f7f34e83b103bdc2081b9,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3541,12 +3546,7 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1892522544380552358, guid: 4246aae2c52f7f34e83b103bdc2081b9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4877708893285474571, guid: 4246aae2c52f7f34e83b103bdc2081b9,
+    - target: {fileID: 8761417596159145557, guid: 4246aae2c52f7f34e83b103bdc2081b9,
         type: 3}
       propertyPath: m_IsActive
       value: 0

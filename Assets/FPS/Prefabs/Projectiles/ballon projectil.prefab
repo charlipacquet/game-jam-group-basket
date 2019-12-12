@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4739884207691453938}
   - component: {fileID: -489515240415320391}
   - component: {fileID: -5217079806551299977}
-  - component: {fileID: 1732511338681351503}
   m_Layer: 0
   m_Name: ballon projectil
   m_TagString: ballon
@@ -76,18 +75,6 @@ MonoBehaviour:
   damage: 40
   areaOfDamage: {fileID: 0}
   radiusColor: {r: 0.13883947, g: 0.754717, b: 0.754717, a: 0.2}
---- !u!114 &1732511338681351503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548764840226577358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82c7a888c8a7dbe4b85b5867cfcb141b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1564947092541576488
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,6 +88,7 @@ GameObject:
   - component: {fileID: 2063879299614723061}
   - component: {fileID: 8333803372268199775}
   - component: {fileID: 4960206981211474067}
+  - component: {fileID: 1220336914075054712}
   m_Layer: 11
   m_Name: Sphere
   m_TagString: ballon
@@ -197,3 +185,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1220336914075054712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564947092541576488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c7a888c8a7dbe4b85b5867cfcb141b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnballe: {fileID: 5393280128438624848, guid: 4f0ab9e05411fc744b650ce91b793aa1,
+    type: 3}

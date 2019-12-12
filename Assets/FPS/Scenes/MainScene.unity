@@ -7246,6 +7246,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: model 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3528314890708754705, guid: f68d9989832997444acfdab11ad04be6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3343618583416210887, guid: f68d9989832997444acfdab11ad04be6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7905993234263241858, guid: f68d9989832997444acfdab11ad04be6,
         type: 3}
       propertyPath: m_IsActive
@@ -7321,19 +7331,9 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.015231759
       objectReference: {fileID: 0}
-    - target: {fileID: -3343618583416210887, guid: f68d9989832997444acfdab11ad04be6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: f68d9989832997444acfdab11ad04be6,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3528314890708754705, guid: f68d9989832997444acfdab11ad04be6,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10973,6 +10973,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: model 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3528314890708754705, guid: f68d9989832997444acfdab11ad04be6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3343618583416210887, guid: f68d9989832997444acfdab11ad04be6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7905993234263241858, guid: f68d9989832997444acfdab11ad04be6,
         type: 3}
       propertyPath: m_IsActive
@@ -11048,19 +11058,9 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.015231759
       objectReference: {fileID: 0}
-    - target: {fileID: -3343618583416210887, guid: f68d9989832997444acfdab11ad04be6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: f68d9989832997444acfdab11ad04be6,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3528314890708754705, guid: f68d9989832997444acfdab11ad04be6,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23866,6 +23866,11 @@ PrefabInstance:
         type: 3}
       propertyPath: gravityDownForce
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 814417836257332542, guid: 761cdc9e4e883334cbdcea062d0befa7,
+        type: 3}
+      propertyPath: recievesFallDamage
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 298744117520805562, guid: 761cdc9e4e883334cbdcea062d0befa7,
         type: 3}

@@ -7,7 +7,7 @@ using TMPro;
 
 public class marquer_un_panier : MonoBehaviour
 {
-    int score = 0;
+    static public int score = 0;
     public TMP_Text textComponent;
 
     public void OnTriggerEnter(Collider other)

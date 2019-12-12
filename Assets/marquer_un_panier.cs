@@ -6,19 +6,15 @@ using UnityEngine;
 
 public class marquer_un_panier : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision other)
-    {
+    int score = 0;
+  public void OnTriggerEnter(Collider other)
+  {
         if (other.gameObject.CompareTag("ballon"))
         {
-            Debug.Log("un pointdddd");
+            score = score + 1;
+            //score++;
+            //score += 1;
+            Debug.Log(score);
         }
-    }
-
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("ballon"))
-        {
-            Debug.Log("un point");
-        }
-    }
+  }
 }

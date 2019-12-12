@@ -57,6 +57,7 @@ public class Pickup : MonoBehaviour
             if (onPick != null)
             {
                 onPick.Invoke(pickingPlayer);
+                Destroy(gameObject);
             }
         }
     }

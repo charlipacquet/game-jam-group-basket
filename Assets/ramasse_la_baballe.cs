@@ -14,7 +14,6 @@ public class ramasse_la_baballe : MonoBehaviour
             Debug.Log("ramasse la balle");
             Instantiate(spawnballe, transform.position, transform.rotation);
             Destroy(gameObject);
-            Destroy(spawnballe);
         }
     }
 }   

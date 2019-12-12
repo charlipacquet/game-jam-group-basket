@@ -6169,8 +6169,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.131486e-18, y: 70.00002, z: 40.000023}
-  m_Center: {x: -23.777952, y: 36.999977, z: 133.00002}
+  m_Size: {x: 52.20507, y: 70.00002, z: 40.000034}
+  m_Center: {x: -49.880497, y: 36.999977, z: 133.00002}
 --- !u!1001 &567189782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7827,8 +7827,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.236542, y: 0.00000035762793, z: 1.5000004}
-  m_Center: {x: -20.159681, y: 33.62498, z: 119.25002}
+  m_Size: {x: 19.093307, y: 0, z: 1.5000032}
+  m_Center: {x: -27.088068, y: 33.624985, z: 119.25002}
 --- !u!1 &711139279
 GameObject:
   m_ObjectHideFlags: 0
@@ -11801,8 +11801,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.3301554e-19, y: 6.750003, z: 5.0000024}
-  m_Center: {x: -22.777952, y: 36.99998, z: 117.50002}
+  m_Size: {x: 9.344836, y: 6.7499995, z: 5.000001}
+  m_Center: {x: -27.45037, y: 36.99998, z: 117.50002}
 --- !u!1 &1105209105
 GameObject:
   m_ObjectHideFlags: 0
@@ -12818,8 +12818,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5748107, y: 16.645367, z: 11.023597}
-  m_Center: {x: -23.565357, y: 36.99997, z: 162.26773}
+  m_Size: {x: 9.93621, y: 16.645365, z: 28.622469}
+  m_Center: {x: -27.746058, y: 36.99997, z: 153.46834}
 --- !u!1 &1209910719
 GameObject:
   m_ObjectHideFlags: 0
@@ -16913,8 +16913,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.4500024, y: 6.0000024, z: 3.5000024}
-  m_Center: {x: -21.05295, y: 36.99998, z: 116.75002}
+  m_Size: {x: 15.244816, y: 6.0000052, z: 3.4999976}
+  m_Center: {x: -26.950354, y: 36.999985, z: 116.75002}
 --- !u!1 &1662085040
 GameObject:
   m_ObjectHideFlags: 0
@@ -20729,8 +20729,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 39.51
+  m_fontSizeBase: 39.51
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class TimerScript : MonoBehaviour {
 
@@ -16,7 +17,7 @@ public class TimerScript : MonoBehaviour {
     void Update()
     {
         time -= Time.deltaTime;
-        GetComponent<Text>().text = string.Format("{0:0}:{1:00}", Mathf.Floor(time / 60), time % 60);
+        GetComponent<TMP_Text>().text = string.Format("{0:0}:{1:00}", Mathf.Floor(time / 60), time % 60);
     }
 
     void TimerExecute()

@@ -114,7 +114,7 @@ public class EnemyMobile : MonoBehaviour
                     m_EnemyController.SetNavDestination(transform.position);
                 }
                 m_EnemyController.OrientTowards(m_EnemyController.knownDetectedTarget.transform.position);
-                m_EnemyController.TryAtack((m_EnemyController.knownDetectedTarget.transform.position - m_EnemyController.weapon.transform.position).normalized);
+//                    m_EnemyController.TryAtack((m_EnemyController.knownDetectedTarget.transform.position - m_EnemyController.weapon.transform.position).normalized);
                 break;
         }
     }

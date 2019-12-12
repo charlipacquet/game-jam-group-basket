@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/WinScene.unity
     guid: 037d06fbede2b4041a843d9ee6fe750c
   - enabled: 1
-    path: Assets/FPS/Scenes/Win Scene.unity
+    path: Assets/FPS/Scenes/Cesarito.unity
     guid: 72e5c65a45893714484002914e3fd521
   - enabled: 1
     path: Assets/FPS/Scenes/MainScene.unity
